@@ -1,0 +1,73 @@
+.table {
+    /* border-collapse: collapse; */
+    margin-top: 20px;
+    padding: 10%;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2 !important;
+}
+td {
+    text-align: center;
+}
+.todo-bg{
+    background: url(../img/todo-bg.gif);
+    background-size: cover;
+}
+h1{
+    color: rgb(248, 87, 87) !important;
+}
+.nav-item a:hover{
+    color: red !important;
+    background-color: white;
+}
+.navbar{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.navbar-brand{
+    color:red !important;
+    font-size:xx-large !important;
+}
+.frm {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    margin-bottom: 20px; 
+}
+.form-group {
+    margin-bottom: 15px; 
+}
+.btn-primary {
+    width: 100%; 
+    padding: 12px;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.main-bg{
+    background: url(../img/login-bg.jpg);
+    background-size: cover;
+}
+.main-section{
+    text-align: center;
+    margin: 100px;
+}
